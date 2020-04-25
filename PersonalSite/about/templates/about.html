@@ -4,18 +4,40 @@
   <title> Welcome! I'm Kevin </title>
 {% endblock %}
 
+
 {% block body %}
+  <style>
+    img{
+        max-width: 70%;
+        max-height: 70%;
+        margin:auto;
+        display: block; /* remove extra space below image */
+    }
+    .box{
+        width: 250px;        
+        border: 5px solid black;
+    }    
+    .box.large{
+        height: 300px;
+    }
+    .box.small{
+        height: 100px;
+    }
+  </style>
+
   <div class = 'container' style="width: 600px; margin-top:40px;">
     <h1> Hello, I'm Kevin! </h1>
     <hr>
     <p style="font-size:120%;"> 
-      I'm currently a freshman at the University of Pennsylvania studying computer
+      I'm currently a freshman at the <a href="http://upenn.edu">University of Pennsylvania</a> studying computer
       science and minoring in statistics. I really enjoy programming because I love the process of building
       and experimenting.
     </p>
     <p style="font-size:120%;"> 
-      Outside of school, I enjoy playing tennis, getting destroyed in basketball :p, and chilling with
+      Outside of school, I enjoy playing tennis, getting destroyed in basketball &#128556, and chilling with
       my friends.
     </p>
+    <br>
+    <img src = 'https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/programming-languages-to-learn-for-wordpress-featured-image.png'>
   </div>
 {% endblock %}
