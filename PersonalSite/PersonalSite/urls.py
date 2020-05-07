@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from about.views import about, resume
+from projects.views import project_list
+from contact.views import contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', about, name='about'),
-    path('resume/', resume, name='resume')
+    path('resume/', resume, name='resume'),
+    path('projects/', project_list, name='project_list'),
+    path('contact/', contact, name='contact')
 ]
