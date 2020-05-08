@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from about.views import about, resume
-from projects.views import project_list, project, comment
+from projects.views import project_list, project, comment, category
 from contact.views import contact
 
 urlpatterns = [
@@ -26,5 +26,6 @@ urlpatterns = [
     path('projects/', project_list, name='project_list'),
     path('contact/', contact, name='contact'),
     path('projects/<str:name>', project, name='project'),
-    path('comment/<str:id>', comment, name='comment')
+    path('comment/<str:id>', comment, name='comment'),
+    path('projects/category/<str:name>', category, name='category')
 ]

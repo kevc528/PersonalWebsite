@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from projects.models import Project, Comment
+from projects.models import Project, Comment, ProjectCategory
 
 # Create your views here.
 def project_list(request):
@@ -24,5 +24,14 @@ def comment(request, id):
             project = Project.objects.filter(id=id).first()
             project.comments.add(comment_obj)
         return redirect('/projects/' + project.title)
+    else:
+        return redirect('project_list')
+
+def category(request, name):
+    category = ProjectCategory.objects.filter(name=name)
+    if len(category) != 0:
+        category = category.first()
+        projects = category.project_set.all()
+        return render(request, 'category.html', {'category': category, 'projects': sorted(projects, reverse=True)})
     else:
         return redirect('project_list')
