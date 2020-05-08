@@ -2,11 +2,12 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 
-# Create your views here.
+# splash page for bio
 def about(request):
     return render(request, 'about.html', {})
 
 
+# download resume from file directory
 def resume(request):
     filepath = '../resume.pdf'
     with open(filepath, 'rb') as fp:

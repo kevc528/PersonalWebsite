@@ -2,12 +2,13 @@ from django.shortcuts import render, redirect
 from projects.models import Project, Comment, ProjectCategory
 
 
-# Create your views here.
+# Render page listing all of the projects
 def project_list(request):
     return render(request, 'project_list.html',
                   {'projects': sorted(Project.objects.all(), reverse=True)})
 
 
+# Render page specific for a project given the name
 def project(request, name):
     project = Project.objects.filter(title=name)
     if len(project) != 0:
@@ -17,6 +18,7 @@ def project(request, name):
         return redirect('project_list')
 
 
+# Post route for posting a comment and redirecting back to the project
 def comment(request, id):
     if request.method == 'POST':
         author = request.POST.get('author')
@@ -32,6 +34,7 @@ def comment(request, id):
         return redirect('project_list')
 
 
+# Get all of the projects under the given category name
 def category(request, name):
     category = ProjectCategory.objects.filter(name=name)
     if len(category) != 0:
