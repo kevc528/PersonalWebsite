@@ -8,6 +8,7 @@ class ProjectCategory(models.Model):
     def __str__(self):
         return self.name
 
+
 class Comment(models.Model):
     author = models.CharField(max_length=200)
     comment = models.TextField()
@@ -15,9 +16,10 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.author
-    
+
     def __lt__(self, other):
         return self.post_time < other.post_time
+
 
 class Project(models.Model):
     title = models.CharField(max_length=200)
@@ -29,6 +31,6 @@ class Project(models.Model):
 
     def __str__(self):
         return self.title
-    
+
     def __lt__(self, other):
         return self.end_date < other.end_date

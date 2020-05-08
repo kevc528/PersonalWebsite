@@ -6,6 +6,7 @@ from django.http import HttpResponse
 def about(request):
     return render(request, 'about.html', {})
 
+
 def resume(request):
     filepath = '../resume.pdf'
     with open(filepath, 'rb') as fp:
