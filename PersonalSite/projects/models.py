@@ -10,6 +10,7 @@ class ProjectCategory(models.Model):
 
 class Comment(models.Model):
     author = models.CharField(max_length=200)
+    comment = models.TextField()
     post_time = models.DateTimeField(auto_now=True)
 
     def __str__(self):
