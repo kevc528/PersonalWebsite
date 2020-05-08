@@ -3,6 +3,8 @@
 ## About
 My personal website built using Python and Django!
 
+Youtube Video Link: <https://www.youtube.com/watch?v=TXJy9OGWqgQ>
+
 ## Running
 Django: Navigate to the `PersonalSite` folder and use the command `python3 manage.py runserver` and then go to `localhost:8000`
 
