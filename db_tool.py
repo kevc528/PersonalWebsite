@@ -13,6 +13,7 @@ import sys
 import sqlite3
 import pandas as pd
 
+# setup db paths and connections
 db_path = 'PersonalSite/db.sqlite3'
 option = sys.argv[1]
 conn = sqlite3.connect(db_path)
@@ -21,6 +22,7 @@ if option == 'info':
 
     table_name = sys.argv[2]
 
+    # obtaining all the tables in the sqlite db
     try:
         df = pd.read_sql('SELECT * FROM ' + table_name, conn)
         print('--------------------------------------------------------')
@@ -36,6 +38,8 @@ if option == 'info':
         print('No such table, use `python3 db_tool.py overview` to see tables')
 
 if option == 'overview':
+
+    # setup cursor and query
     c = conn.cursor()
     c.execute("SELECT name FROM sqlite_master WHERE type='table'")
     tables = c.fetchall()
