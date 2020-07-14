@@ -1,4 +1,4 @@
-# PersonalWebsite
+# PersonalWebsite - DJANGO VERSION
 
 ## About
 My personal website built using Python and Django!
