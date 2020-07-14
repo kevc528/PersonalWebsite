@@ -1,0 +1,14 @@
+img {
+    max-width: 70%;
+    max-height: 70%;
+    margin:auto;
+    display: block; /* remove extra space below image */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  margin-top: -100px;
+}
