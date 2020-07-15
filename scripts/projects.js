@@ -1,5 +1,5 @@
 function clickFilter(filter) {
-  window.location.href = `./projects.html?filter=${(filter).trim().replace(' ','-')}`;
+  window.location.href = `./projects?filter=${(filter).trim().replace(/ /g,'%20')}`;
 }
 
 function getButtons(categories) {
@@ -17,14 +17,14 @@ function getButtons(categories) {
 function loadProjects() {
   var urlParams = new URLSearchParams(window.location.search);
   var filter = urlParams.get('filter');
-  if (filter != null) { filter = filter.replace('-', ' '); }
+  if (filter != null) { filter = filter.replace(/%20/g, ' '); }
   for (var index in PROJECTS) {
     var project = PROJECTS[index];
     if (filter == null || project.categories.includes(filter)) {
       var template = 
       `<div class = "card" style = "margin-bottom:10px">
         <div class = "card-body">
-          <a href = "./projects/${project.title}" style = "color:black"><h5 class= "card-title linkable">${project.title}</h5></a>
+          <a href = "./projects/${project.title.replace(/ /g, '-')}" style = "color:black"><h5 class= "card-title linkable">${project.title}</h5></a>
           <i class="card-text">${project.start_date} - ${project.end_date}
             <br>
           </i>
