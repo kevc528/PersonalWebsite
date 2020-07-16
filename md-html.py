@@ -38,7 +38,7 @@ def convert(md_path):
     <body>
         <div id="nav-placeholder"></div>
         <script>
-        innerLoadNav();
+            loadNav();
         </script>
         <div class = 'container' style="width: 600px; margin-top:40px;">
     """
@@ -47,7 +47,7 @@ def convert(md_path):
     </body>
     <footer class="footer my-5 pt-5 text-muted text-center text-small" id="footer-placeholder"></footer>
     <script>
-        innerLoadFooter();
+        loadFooter();
     </script>
     </html>
     """
