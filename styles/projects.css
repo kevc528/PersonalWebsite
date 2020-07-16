@@ -1,7 +1,48 @@
-.waves-effect:hover {
-  background-color: lightblue;
+.btn-Web-Development {
+  color: rgb(102, 196, 230);
+  border-color: rgb(102, 196, 230); 
+}
+
+.btn-Web-Development:hover {
+  opacity: 30%;
+  background-color: rgb(102, 196, 230);
+  border-color: rgb(102, 196, 230);
+}
+
+.btn-Mobile-Development {
+  color: lightcoral;
+  border-color: lightcoral; 
+}
+
+.btn-Mobile-Development:hover {
+  opacity: 30%;
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+.btn-Data-Science {
+  color: rgb(50, 168, 133);
+  border-color: rgb(50, 168, 133); 
+}
+
+.btn-Data-Science:hover {
+  opacity: 30%;
+  background-color: rgb(50, 168, 133);
+  border-color: rgb(50, 168, 133);
+}
+
+.btn-Game-Development {
+  color: rgba(221, 209, 96, 0.863);
+  border-color: rgba(221, 209, 96, 0.863); 
+}
+
+.btn-Game-Development:hover {
+  opacity: 60%;
+  background-color: rgba(221, 209, 96, 0.863);
+  border-color: rgba(221, 209, 96, 0.863);
 }
 
 button {
+  border-radius: 1rem;
   margin-right: 10px;
 }

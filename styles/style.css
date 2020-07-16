@@ -32,3 +32,10 @@ blockquote {
 blockquote p {
   display: inline;
 }
+
+.card {
+  border: 1;
+  border-radius: 1rem;
+  border-color: rgb(218, 230, 235);
+  box-shadow: 0 0.3rem 0.6rem 0 rgba(0, 0, 0, 0.075);
+}

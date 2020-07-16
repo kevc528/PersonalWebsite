@@ -7,7 +7,7 @@ function getButtons(categories) {
   for (var index in categories) {
     var category = categories[index];
     var template = 
-      `<button type="button" class="btn btn-outline-primary btn-rounded btn-sm waves-effect" onclick="clickFilter(this.textContent)">
+      `<button type="button" class="btn btn-outline-primary btn-rounded btn-sm btn-${category.replace(/ /g, '-')}" onclick="clickFilter(this.textContent)">
         ${category}</button>`
     html += template;
   }
