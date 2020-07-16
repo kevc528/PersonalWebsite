@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+.btn-filter {
+  border-radius: 3rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
