@@ -18,7 +18,7 @@ def convert(md_path):
     md_content = md_file.read()
     md_file.close()
     html_file = open(html_path + '/' + md_path.split('/')[-1].split('.')[0] + '.html', 'w+')
-    converted = markdown2.markdown(md_content)
+    converted = markdown2.markdown(md_content, extras=["target-blank-links"])
     first_half = f"""
     <!DOCTYPE html>
     <html lang="en-us">
