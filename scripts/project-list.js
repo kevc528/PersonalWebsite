@@ -6,16 +6,16 @@ const PROJECTS = [
     categories: ['Web Development', 'Mobile Development']
   },
   {
-    title: 'Penn Lost and Found',
-    start_date: '2/2020',
-    end_date: '5/2020',
-    categories: ['Web Development', 'Mobile Development']
-  },
-  {
     title: 'My Personal Website',
     start_date: '4/2020',
     end_date: 'Present',
     categories: ['Web Development']
+  },
+  {
+    title: 'Penn Lost and Found',
+    start_date: '2/2020',
+    end_date: '5/2020',
+    categories: ['Web Development', 'Mobile Development']
   },
   {
     title: 'Movie Dataset Analysis',

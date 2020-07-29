@@ -26,6 +26,72 @@
   <p>A journey through my development process of this website</p>
 </blockquote>
 
+<hr />
+
+<p><strong>Source Code</strong></p>
+
+<p><a href="https://github.com/kevc528/PersonalWebsite">https://github.com/kevc528/PersonalWebsite</a></p>
+
+<hr />
+
+<p><img src="/content/images/web-frameworks.png" alt="Web Frameworks" /></p>
+
+<h2>About</h2>
+
+<p>It's pretty common for software engineers and techies to have their own websites nowadays to showcase any 
+cool projects and discuss technical thoughts. This post discusses the journey of how I made this website. 
+Working on this website is a fun and relaxing way to learn and try out new web technologies. I've already 
+rebuilt this website using new implementations, and hope to continue rebuilding and revamping the site.</p>
+
+<h2>Development</h2>
+
+<h3>Version 1: Django</h3>
+
+<p>The first iteration of my website was actually built as a final project for a Python programming class I took 
+during my freshman spring. During the time, I was interested in learning more about web development... so I 
+thought why not make a personal website.</p>
+
+<p>What's really nice about the Django framework is it's connectivity with SQL databases, especially with how it's 
+models directly directly mapped to database structure. During this version of the website, I would store all my 
+posts and projects in the database... but using a database seemed a little bit extra for this.</p>
+
+<p>It might also be notable to mention that I also took advantage of this database connectivity to create a 
+discussion section for my posts. To be fair, what motivated me to do this was because I felt like I needed to 
+take advantage of the dynamic web features of Django. But after rethinking the goal of my website, I decided that 
+wasn't very necessary and wasn't worth all the moving parts required. This leads me into the second version of my 
+website.</p>
+
+<h3>Version 2: JavaScript + jQuery</h3>
+
+<p>As I moved into the summer after my freshman year, I had more time to work on projects and learn something new. 
+I was especially interested in learning more about web development and thought it would be a perfect time to 
+redo my website... especially since Django seemed a bit extra for a basically static website. I wanted something 
+that was lightweight and had a UI that was easy to change.</p>
+
+<p>During this time, I was doing a lot of work with Angular through my internship and other projects, but that also 
+seemed a bit intense for the purpose of this website. Instead, I decided to go with using JavaScript and jQuery, 
+a pretty standard choice. At the time I didn't have much experience with jQuery and saw this as a good 
+opportunity to try it out. That being said, having worked with Angular during the same time period, I did miss the modularity, organization, and connectivity/interactivity that Angular had.</p>
+
+<p>Actual development for this version wasn't too bad. I reused some of the templates I already had from the Django 
+version and used JavaScript and jQuery to replicate the same functionality. jQuery was really nice for increasing 
+interactivity of the website, like filtering project list based on the tag clicked, and also reducing the amount 
+of repeated HTML I had to write (because who really enjoys writing raw HTML right?).</p>
+
+<p>The one big change I had to make in my transition from Django was how I was going to store my posts, like this 
+one. Originally in Django, I would just put it in the database, but now I need a new solution. I knew that I 
+definitely didn't want to have to write HTML for each new post created. In the end, I decided to write all my 
+posts in Markdown, and then have a script that converts the posts to HTML. This made changing and 
+adding posts a much better experience.</p>
+
+<p>Overall, I'm pretty happy with the changes that I made to for this version; especially since everything is 
+lightweight and easy to use.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>Now that I'm pretty much wrapped up on the JS/jQuery version of my website, I'm looking to see if there are any other tech stacks for me to try out and potentially rebuild the website with. I've heard quite a bit about 
+Gatsby/React and this might be the next step for this site...</p>
+
         </div>
     </body>
     <footer class="footer my-5 pt-5 text-muted text-center text-small" id="footer-placeholder"></footer>
