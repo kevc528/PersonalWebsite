@@ -24,6 +24,8 @@ def convert(md_path):
     <html lang="en-us">
     <head>
         <title>{md_path.split('/')[-1].split('.')[0].replace('-', ' ')}</title>
+        <link rel="icon" href="/content/images/favicon_io/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="/content/images/favicon_io/apple-touch-icon.png" type="image/png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
         crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../styles/style.css">
