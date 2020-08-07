@@ -32,14 +32,14 @@
 }
 
 .btn-Game-Development {
-  color: rgba(221, 209, 96, 0.863);
-  border-color: rgba(221, 209, 96, 0.863); 
+  color: rgba(204, 154, 30, 0.863);
+  border-color: rgba(204, 154, 30, 0.863);
 }
 
 .btn-Game-Development:hover {
   opacity: 60%;
-  background-color: rgba(221, 209, 96, 0.863);
-  border-color: rgba(221, 209, 96, 0.863);
+  background-color: rgba(204, 154, 30, 0.863);
+  border-color: rgba(204, 154, 30, 0.863);
 }
 
 button {
