@@ -1,7 +1,7 @@
 # Overheard at UPenn Analysis
 > Analyzing this treasured Facebook group at Penn
 
-![Graphs](/content/images/overheard.png)
+![Graphs](/content/images/overheard.jpg)
 
 For this project, I did some NLP analysis of the Overheard at UPenn Facebook group. This group has posts on 
 various interesting and funny phrases that students have overheard. I mainly analyzed the post structure and 

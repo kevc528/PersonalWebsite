@@ -8,7 +8,7 @@
 
 ---
 
-![Trading Strategy](/content/images/trading.png)
+![Trading Strategy](/content/images/trading.jpg)
 
 ## About
 Currently, algorithmic trading has been a pretty hot topic within the tech world. Computers are a great way to 

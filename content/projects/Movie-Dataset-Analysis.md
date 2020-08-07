@@ -12,7 +12,7 @@
 
 ---
 
-![Movies](/content/images/movies.png)
+![Movies](/content/images/movies.jpg)
 
 ## About
 This project was my final project for CIS545, which is a big datat analytics class I took freshman spring. For 

@@ -8,7 +8,7 @@
 
 ---
 
-![Project Architecture](/content/images/lost-found-architecture.png)
+![Project Architecture](/content/images/lost-found-architecture.jpg)
 
 ## About
 This project was my final project for CIS350, a software enginering class I took freshman spring. The goal of 
@@ -46,7 +46,7 @@ With the API in place, we used Ajax requests in the web app and AsyncTasks with 
 Android app to make HTTP requests to this API to fetch and write data.
 
 ### Native Android App
-![Android App](/content/images/penn-lost-found-android.png)
+![Android App](/content/images/penn-lost-found-android.jpg)
 
 The Android App was developed using Java in Android Studio. It is what most students would use on 
 this platform. Students would be able to create an account and login through the app. Then they would be able to 
@@ -69,7 +69,7 @@ The other features like logging in, creating an account, reporting an user, etc.
 involve simple reads and writes to the database through the API.
 
 ### Admin Web App
-![Web App](/content/images/penn-lost-found-web.png)
+![Web App](/content/images/penn-lost-found-web.jpg)
 
 The web app was developed using HTML/CSS/JavaScript and Vue.js for more interactivity in the UI, like modals, 
 forms, and tables. The web app is for administrators of the app, who can see everything going on behind the 

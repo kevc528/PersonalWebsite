@@ -8,7 +8,7 @@
 
 ---
 
-![Web Frameworks](/content/images/web-frameworks.png)
+![Web Frameworks](/content/images/web-frameworks.jpg)
 
 ## About
 It's pretty common for software engineers and techies to have their own websites nowadays to showcase any 

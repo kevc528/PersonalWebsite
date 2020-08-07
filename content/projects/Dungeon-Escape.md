@@ -8,7 +8,7 @@
 
 ---
 
-![Dungeon Escape](/content/images/dungeon-escape.png)
+![Dungeon Escape](/content/images/dungeon-escape.jpg)
 
 ## About
 This project was actually the final project for CIS120, an progamming design class I took freshman fall. The task 

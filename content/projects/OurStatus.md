@@ -1,7 +1,7 @@
 # OurStatus
 > A cross-platform social media app promoting productivity
 
-![OurStatus](/content/images/OurStatusLogo.png)
+![OurStatus](/content/images/OurStatusLogo.jpg)
 
 ## About
 This is a project I worked on during the summer of 2020 with a few of my friends from high school. The summer 

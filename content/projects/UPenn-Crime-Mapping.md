@@ -1,9 +1,9 @@
 # UPenn Crime Mapping
 > Analyzing and mapping the crime reports near UPenn
 
-![Graphs](/content/images/crime-graphs.png)
+![Graphs](/content/images/crime-graphs.jpg)
 
-![Map](/content/images/crime-map.png)
+![Map](/content/images/crime-map.jpg)
 
 For this project, I analyzed a few months of crime data at UPenn by scraping it off the crime log posted by the 
 Division of Public Safety. After doing some basic I/O and data manipulation using Python, I was able to clean the 
